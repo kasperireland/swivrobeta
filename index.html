@@ -61,15 +61,15 @@
     </nav>
 </section>
 
-<section data-bs-version="5.1" class="countdown4 cid-sSLR5bxbDx" data-bg-video="https://vimeo.com/285136839" id="countdown4-0">
+<section data-bs-version="5.1" class="countdown4 cid-sSLR5bxbDx mbr-fullscreen" data-bg-video="https://vimeo.com/230366075" id="countdown4-0">
     
     <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(0, 0, 0);">
     </div>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8">
-                <h3 class="mbr-section-title mb-5 align-center mbr-fonts-style display-2">
-                    <strong>Something is coming...</strong></h3>
+                <h3 class="glitch mbr-section-title mb-5 align-center mbr-fonts-style display-1">
+                    <strong>Unmonitored Communications</strong></h3>
                 
                 <div class="countdown-cont align-center mb-5">
                     <div class="daysCountdown col-xs-3 col-sm-3 col-md-3" title="Days"></div>
@@ -79,7 +79,7 @@
                     <div class="countdown" data-due-date="2022/01/02T16:09:00"></div>
                 </div>
                 <p class="mbr-text mb-5 align-center mbr-fonts-style display-7">
-                    We're launching something new very soon. Stay up to date via our socials.</p>
+                    We're launching our secure &amp; privacy-first XMPP server soon.</p>
                 <div class="icons-menu row justify-content-center display-7">
                     
                     
@@ -104,7 +104,7 @@
     </div>
 </section>
 
-<section data-bs-version="5.1" class="features1 cid-sSQvImRQa3" id="features2-7">
+<section data-bs-version="5.1" class="features1 cid-sSRDqqlR1G" id="features2-9">
 
     
 
@@ -116,7 +116,16 @@
                     <div class="card-box align-center">
                         <span class="mbr-iconfont mbrib-preview"></span>
                         <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
-                            <strong>Unmonitored</strong></h4>
+                            <strong>Unmonitored</strong><strong><br></strong></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card-wrapper">
+                    <div class="card-box align-center">
+                        <span class="mbr-iconfont mbrib-key"></span>
+                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
+                            <strong>Encrypted (TLS)</strong></h4>
                     </div>
                 </div>
             </div>
@@ -125,103 +134,21 @@
                     <div class="card-box align-center">
                         <span class="mbr-iconfont mbrib-protect"></span>
                         <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
-                            <strong>Encrypted</strong></h4>
+                            <strong>Maximum Security</strong></h4>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card-wrapper">
                     <div class="card-box align-center">
-                        <span class="mbr-iconfont mbrib-wifi"></span>
+                        <span class="mbr-iconfont mbrib-file"></span>
                         <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
-                            <strong>Lightning Fast</strong></h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card-wrapper">
-                    <div class="card-box align-center">
-                        <span class="mbr-iconfont mbrib-user"></span>
-                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
-                            <strong>Privacy-first</strong></h4>
+                            <strong>No Logs</strong></h4>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
-
-<section class="mbr-section" id="witsec-modal-window-block-2" data-rv-view="2638">
-
-	<style>
-	/* Let's not animate the contents of modal windows */
-	.no-anim {
-		-webkit-animation: none !important;
-		-moz-animation: none !important;
-		-o-animation: none !important;
-		-ms-animation: none !important;
-		animation: none !important;
-	}
-	</style>
-
-	
-	
-	<div><div class="modal fade" id="coming-soon" tabindex="-1" role="dialog" aria-labelledby="coming-soonLabel" aria-hidden="true">  <div class="modal-dialog  " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="coming-soonLabel">Coming Very Soon!</h5>  <a href="#" class="no-anim close" data-bs-dismiss="modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="coming-soon_body">Swivro is launching very soon, stay tuned!</div>    </div>  </div></div><script> 
-document.addEventListener("DOMContentLoaded", function() { 
-  if(typeof jQuery === "function") {
-    $("#coming-soon").on("hidden.bs.modal", function () { 
-      var html = $( "#coming-soon_body" ).html(); 
-      $( "#coming-soon_body" ).empty(); 
-      $( "#coming-soon_body" ).append(html); 
-    }) 
-  } else { 
-      var mdw = document.getElementById("#coming-soon") 
-      mdw.addEventListener("hidden.bs.modal", function(event) { 
-        mdw.innerHTML = mdw.innerHTML; 
-      }); 
-  } 
-}); 
-</script></div>
-
-	<script>
-	if (typeof OpenModal === 'undefined') {
-		OpenModal = function(modalName) {
-			if(typeof jQuery === "function") {
-				if ($('#' + modalName).length)
-					$('#' + modalName).modal('show');
-				else
-					alert("Sorry, but there is no modal for " + modalName);
-			} else {
-				let mdw = new bootstrap.Modal(document.getElementById(modalName), {});
-				mdw.show();
-			}
-		}
-	}
-
-	function modalSetCookie(cname, cvalue, exdays) {
-		var d = new Date();
-		d.setTime(d.getTime() + (exdays*24*60*60*1000));
-		var expires = "expires="+ d.toUTCString();
-		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-	}
-
-	function modalGetCookie(cname) {
-		var name = cname + "=";
-		var decodedCookie = decodeURIComponent(document.cookie);
-		var ca = decodedCookie.split(';');
-		for(var i = 0; i <ca.length; i++) {
-			var c = ca[i];
-			while (c.charAt(0) == ' ') {
-				c = c.substring(1);
-			}
-			if (c.indexOf(name) == 0) {
-				return c.substring(name.length, c.length);
-			}
-		}
-		return "";
-	}
-	</script>
-
 </section>
 
 <section data-bs-version="5.1" class="footer7 cid-sSLTLwm59B" once="footers" id="footer7-3">
